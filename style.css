@@ -1,0 +1,126 @@
+h3 {
+    padding: 0% 10%;
+
+}
+
+.results-container {
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+
+.results-summary {
+    position: absolute;
+    margin-left: 25%;
+}
+
+.results {
+    background-color: #4534f2;
+    position: absolute;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.results,
+.results-summary,
+.percentages {
+    width: 300px;
+    height: 450px;
+}
+
+.number-summary,
+.percentages {
+    position: absolute;
+}
+
+.percentages {
+    margin-left: 43%;
+    margin-top: 54px;
+    text-align: left;
+}
+
+.results-summary {
+    text-align: left;
+}
+
+.grade {
+    font-weight: 700;
+}
+
+.reaction {
+    background-color: #fff6f5;
+}
+
+.memory {
+    background-color: #fffbf2;
+}
+
+.verbal {
+    background-color: #f2fbfa;
+}
+
+.visual {
+    background-color: #f2fbfa;
+}
+
+.visual,
+.verbal,
+.memory,
+.reaction {
+    width: 300px;
+    border-radius: 10px;
+
+}
+
+.button button:hover {
+    background-color: rgb(105, 105, 105);
+    cursor: pointer;
+}
+
+.button button {
+    transition-duration: 0.4s;
+    background-color: #303b59;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 14px 90px;
+    border-radius: 24px;
+    margin-left: 40px;
+}
+
+.grammar {
+    padding: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-left: 30px;
+}
+
+.achievement-description {
+    width: 70%;
+    margin-top: 60px;
+    margin-left: 14%;
+
+}
+
+.overall-results {
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 50%;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 16px;
+}
+
+#out-of-value {
+    margin-top: -10px;
+}
+
+.overall-points {
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 30px;
+}
